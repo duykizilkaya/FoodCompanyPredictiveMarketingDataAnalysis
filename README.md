@@ -25,11 +25,13 @@ Several machine learning models were trained and evaluated, including:
 
 _Model Performance_:
 
-* Model	Training  Accuracy	Test Accuracy	Training AUC	Test AUC
-* DecisionTreeClassifier	99.30%	81.17%	0.97	0.65
-* RandomForestClassifier	98.80%	86.65%	0.96	0.63
-* GradientBoostingClassifier	90.02%	86.79%	0.72	0.66
-* **XGBClassifier**	91.42%	87.65%	0.74	0.67
+|           Model            | Training Accuracy | Test Accuracy	| Training AUC	| Test AUC |
+| -------------------------- | ----------------  | -------------- | ------------- | -------- |
+|   DecisionTreeClassifier   | 	    99.30%       |     81.17%	    |     0.97	    |   0.65   |
+|   RandomForestClassifier   |	    98.80%	     |     86.65%     |    	0.96	    |   0.63   ||
+| GradientBoostingClassifier |      90.02%	     |     86.79%	    |     0.72	    |   0.66   |
+|    **XGBClassifier**	     |      91.42%	     |     87.65%	    |     0.74      |   0.67   |
+
 
 _Analysis Results_
 
