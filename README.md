@@ -46,6 +46,7 @@ The XGBClassfier emerged as the best-performing model based on the evaluation me
 The predictive marketing data analysis project demonstrated the feasibility of using machine learning models to predict customer responses to marketing campaigns. Despite the moderate performance, the insights gained and the best-performing model (XGBClassifier) provide a solid foundation for future improvements. Future work could focus on acquiring more data, addressing class imbalance more effectively, and exploring advanced feature engineering techniques to enhance model performance. ​
 
 ** This data set was retrieved from GitHub and found in Kaggle: https://github.com/nailson/ifood-data-business-analyst-test https://www.kaggle.com/datasets/jackdaoud/marketing-data
+
 ** In this project, pandas, matplotlib, seaborn, numpy, scipy and datetime modules were imported and used in Python language.
 
 # # Lebensmittelunternehmen: Prädiktive Marketing-Datenanalyse
@@ -95,4 +96,5 @@ Das prädiktive Marketing-Datenanalyseprojekt zeigte die Machbarkeit der Verwend
 
 ** Dieser Datensatz wurde von GitHub abgerufen und auf Kaggle gefunden: https://github.com/nailson/ifood-data-business-analyst-test
 https://www.kaggle.com/datasets/jackdaoud/marketing-data
+
 ** In diesem Projekt wurden die Module pandas, matplotlib, seaborn, numpy, scipy und datetime importiert und in der Programmiersprache Python verwendet.
