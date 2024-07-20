@@ -12,7 +12,6 @@ This project focuses on predicting customer responses to marketing campaigns usi
 * Model Training and Evaluation: Train multiple machine learning models, evaluate their performance using metrics such as accuracy and AUC, and select the best-performing model.
 * Model Tuning and Validation: Fine-tune the selected model and validate its performance using cross-validation.
 
--
 ### Model Training and Evaluation
 
 Several machine learning models were trained and evaluated, including:
@@ -22,20 +21,16 @@ Several machine learning models were trained and evaluated, including:
 - GradientBoostingClassifier
 - XGBClassifier
 
-_Performance Metrics_:
+_Model Performance_:
 
-*Accuracy
-AUC (Area Under the ROC Curve)
+* Model	Training  Accuracy	Test Accuracy	Training AUC	Test AUC
+* DecisionTreeClassifier	91.26%	88.43%	0.75	0.67
+* RandomForestClassifier	91.54%	89.56%	0.76	0.70
+* **GradientBoostingClassifier**	91.60%	86.39%	0.74	0.67
+* XGBClassifier	91.49%	88.77%	0.75	0.65
 
-* Model Performance:
+_Analysis Results_
 
-
-Model	Training  Accuracy	Test Accuracy	Training AUC	Test AUC
-DecisionTreeClassifier	91.26%	88.43%	0.75	0.67
-RandomForestClassifier	91.54%	89.56%	0.76	0.70
-**GradientBoostingClassifier**	91.60%	86.39%	0.74	0.67
-XGBClassifier	91.49%	88.77%	0.75	0.65
-Analysis Results
 The GradientBoostingClassfier emerged as the best-performing model based on the evaluation metrics, particularly accuracy and AUC. However, it is important to note that the model's performance, especially the AUC, indicates there is room for improvement.
 
 ### Key Findings
